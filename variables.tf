@@ -3,3 +3,8 @@ variable "key_name" {
     type = string
     default = "nginx-demo"
 }
+variable "region" {
+    description = "region"
+    type = string
+    default = "ap-southeast-1"
+}
